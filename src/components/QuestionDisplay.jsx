@@ -2,7 +2,7 @@ import React from 'react';
 
 function QuestionDisplay({ parts, selectedWords, handleFilledBlankClick }) {
   return (
-    <div className="mb-8 font-medium  text-base md:text-lg lg:text-xl min-h-32">
+    <div className="mb-4 font-medium  text-base md:text-lg lg:text-xl min-h-32">
       {parts.map((part, index) => (
         <span key={index} >
           {part}

@@ -35,35 +35,6 @@ The application has been deployed online and is live for users. You can access i
 
 Live Project 
 
-## Folder Structure 📂
-/sentence-construction-tool
-│
-├── /public                     # question.json
-├── /src                        # Source files
-│   ├── /components             # Reusable components (Timer, WordOptions, etc.)
-                                  ├── /ErrorScreen            
-                                  ├── /Feedback                
-                                  ├── /LoadingScreen               
-                                  ├── /OptionButton
-                                  ├── /ProgressBar           
-                                  ├── /Question              
-                                  ├── /QuitConfirmatjion             
-                                  ├── /SentenceIntro              
-                                  ├── /TestScreen
-                                  ├── /Timer
-│   ├── /styles                 # Tailwind CSS files
-│   ├── App.jsx                # Main app component
-│   └── index.jsx               # Entry point for the React app
-│
-├── /json-server                # JSON server for local API
-│   └── db.json                 # Sample question data in JSON format
-│
-├── /tailwind.config.js         # Tailwind CSS configuration
-├── /tsconfig.json              # TypeScript configuration (if using TypeScript)
-├── /package.json               # Project dependencies and scripts
-└── /README.md                  # Project documentation
-
-
 ## Setup Instructions 🚀
 
 ### 1. Clone the repository:
