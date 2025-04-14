@@ -9,7 +9,7 @@ export default function SentenceConstruction() {
     navigate('/question')
   }
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4">
+    <div className="mt-40 flex items-center justify-center px-4">
       <div className="text-center max-w-md w-full">
         {/* Icon */}
         <div className="text-4xl text-gray-500 mb-4 flex justify-center">

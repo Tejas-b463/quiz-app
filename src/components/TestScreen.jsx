@@ -23,11 +23,11 @@ function TestScreen({
   const isAllBlanksFilledIn = selectedWords.length === blankCount;
 
   return (
-    <div className="max-w-4xl mt-20 mx-auto p-20 flex flex-col relative shadow-xl rounded-xl">
+    <div className="max-w-4xl mt-20 mx-auto p-10 flex flex-col relative shadow-xl rounded-xl">
       <div className="mb-6 flex justify-between items-center">
         <Timer timer={timer} />
         <button 
-          className="px-4 py-2 border rounded-md hover:bg-gray-100"
+          className="px-4 py-2 border rounded-md hover:bg-gray-100 cursor-pointer font-semibold"
           onClick={handleQuit}
         >
           Quit
@@ -39,7 +39,7 @@ function TestScreen({
         totalQuestions={totalQuestions} 
       />
 
-      <h1 className="text-xl text-center mb-8">
+      <h1 className="text-xl text-gray-600 font-semibold text-center mb-8">
         Select the missing words in the correct order
       </h1>
       
