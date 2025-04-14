@@ -21,7 +21,7 @@ function FeedbackPage({ score, totalQuestions, userAnswers, questions }) {
       {/* Score Circle */}
       <div className="text-center mb-8">
         <div className="flex justify-center mb-3">
-          <div className="w-30 h-30 md:w-24 md:h-24 flex items-center justify-center rounded-full border-8 border-green-700 text-green-700 text-3xl md:text-4xl font-bold shadow-md">
+          <div className="w-30 h-30 md:w-24 md:h-24 flex items-center justify-center rounded-full border-8 border-green-700 text-green-700 text-3xl md:text-4xl font-bold shadow-md p-12">
             <span>{score}</span>/{totalQuestions}
           </div>
         </div>

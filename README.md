@@ -33,7 +33,7 @@ Key features include:
 ## Deployment 🌐
 The application has been deployed online and is live for users. You can access it at the following link:
 
-Live Project 
+https://quiz-app-nu-ten-14.vercel.app/
 
 ## Setup Instructions 🚀
 
