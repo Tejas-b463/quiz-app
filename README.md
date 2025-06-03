@@ -1,4 +1,4 @@
-# CA MONK Frontend Internship Assignment - Sentence Construction Tool 🧑‍💻
+# Sentence Construction Tool 🧑‍💻
 
 ## Overview 📝
 The **Sentence Construction Tool** is a fun and interactive web application that helps users practice sentence construction. The app presents users with incomplete sentences and a set of word options, and users must select the correct words to fill in the blanks. 
